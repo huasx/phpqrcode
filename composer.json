@@ -1,5 +1,5 @@
 {
-  "name": "kairos/phpqrcode",
+  	"name": "kairos/phpqrcode",
 	"type": "library",
 	"description": "A PHP class to generate QR Code",
 	"keywords": ["php", "qrcode"],
