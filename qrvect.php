@@ -126,8 +126,8 @@
             $vect = self::vectSVG($frame, $pixelPerPoint, $outerFrame, $back_color, $fore_color);
             
             if ($filename === false) {
-                header("Content-Type: image/svg+xml");
-                header('Content-Disposition: filename="qrcode.svg"');
+                //header("Content-Type: image/svg+xml");
+                //header('Content-Disposition: filename="qrcode.svg"');
                 return $vect;
             } else {
                 if($saveandprint===TRUE){
