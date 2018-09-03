@@ -46,7 +46,7 @@
 
     class QRrawcode {
         public $version;
-        public $datacode = array();QRcode
+        public $datacode = array();
         public $ecccode = array();
         public $blocks;
         public $rsblocks = array(); //of RSblock
